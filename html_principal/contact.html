@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html  lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="../styles/index.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+        <link rel="shortcut icon" href="../images/logo/favicon.ico"/>
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo/logo.png" alt="la ya le logo"></a>
+            </div>
+            <h1 class="titre_header">24 ARENA</h1>
+            <nav>
+                <a href="../index.html">Accueil</a>
+                <a href="../html_sport/sport.html">Sport</a>
+                <a href="../html_activite/activite.html">Activités</a>
+                <a class="ici" href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <aside>
+        	<nav class="contact">
+        		<a href="#tarif"> Tarif Et Réductions</a>
+        		<a href="#localistaion">Localisation</a>
+        		<a href="#formulaire">Réservation</a>
+        		<a href="#contact">Information Contact</a>
+        	</nav>
+        </aside>
+        <main>
+            <section>
+				<article id="tarif" class="tarif">
+                	<h1>Sports</h1>
+                	<h2>Nombres d'heures a laquelle vous restez sur le domaine pour n'importe quel sports</h2>
+                		<p>1 heure correspond à 10€/personne </p>
+                		<p>2 heures correspond à 18€/personne </p>
+                		<p>10 heures correspond à 40€/personne </p>
+                </article>
+
+                <article class="tarif">
+                	<h1>Activités</h1>
+                	<h2>Nombres d'heures à laquelle vous restez sur le domaine pour n'importe quel activités</h2>
+                		<p>1 heure correspond à 20€/personne </p>
+                		<p>2 heures correspond à 36€/personne </p>
+                		<p>10 heures correspond à 80€/personne </p>
+                </article>
+                <article class="tarif">
+                	<h1> Sports et Activités</h1>
+                	<h2>Une réduction, à ne pas rater, est également disponible a 24 Arena</h2>
+                	<p>Au dela de 10 Personnes, Chaque individus bénéficie d'une réduction de 20% sur le prix de l'entrée</p>
+                </article>
+            </section>
+            <section >
+            	<h1>retrouvez ici l'adresse précise de 24 Arena</h1>
+            	<article id="localistaion" class="localisation">
+            		
+            		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EiNW5lgp6nCiqhLx4ihWHgnXEJevLOI&ehbc=2E312F" width="640" height="480"></iframe>
+            	</article>
+            </section>
+            	<h1 id="formulaire"> Retrouvez ici toutes les étapes pour réserver votre session de jeux !</h1>
+        		<section>
+                    <form action="https://webdev.iut-orsay.fr/r102/tests/formulaire/test_formulaire.php" method="post" >
+						
+						<label for="last_name">
+							Entrez votre Nom de Famille : 
+						</label>
+						<input id="last_name"
+							name="nom_de_famille"
+							type="text"
+							placeholder="nom"
+							required
+						/>
+						
+						<label for="firstname">
+							Entrez votre Prénom :
+						</label>
+						<input id="firstname"
+							name="prenom_utilisateur"
+							type="text"
+							placeholder="prénom"
+							required
+						/>
+
+						<label for="reservation">
+							À quelle date voulez vous réserver ?
+						</label>
+						<input id="reservation"
+							name="date_reservation"
+							type="date"
+							min="2024-11-16"
+							max="2030-12-01" 
+							required							
+						/></br>
+
+						<label for="loisirs">
+							Quelle activité voulez-vous réserver ?
+						</label>
+						<select id="loisirs" name="type_loisirs">
+							<option value="football">Football</option>
+							<option value="basketball">Basketball</option>
+							<option value="piscine">Piscine</option>
+							<option value="handball">Handball</option>
+							<option value="volley-ball">Volley-ball</option>
+
+							<option value="karting">Karting</option>
+							<option value="jeux_arcades">Jeux d'arcades</option>
+							<option value="bowling">Bowling</option>
+							<option value="laser_game">Laser game</option>
+							<option value="Billard">Billard</option>
+						</select></br>
+
+						<label for="Heures_tarif">
+							Combien de temps voulez-vous restez sur le domaine ?
+						</label>
+						<select id="Heures_tarif" name="Nombre_Heures_tarif">
+							<option value="une_heure">1 Heure</option>							
+							<option value="deux_heures">2 Heures</option>
+							<option value="dix_heures">10 Heures</option>							
+						</select></br>
+
+						<label for="mail">
+							Saisissez votre adresse E-mail : 
+						</label>
+						<input id="mail"
+						type="email" 
+						name="email" 
+						placeholder="Adresse E-mail" 
+						required
+						/></br>
+						<label for="Tel">
+							Saisissez votre numéro de téléphone :
+						</label>
+                    <input id="Tel" 
+                    name="Numéro de téléphone" 
+                    type="tel"  
+                    placeholder="Numéro de téléphone"
+                    required 
+                    pattern="[0-9]{10}" 
+                    /></br>
+
+					<input class="Boutons" type="submit" value="envoyer" />
+					<input class="Boutons" type="reset" value="annuler" />
+				</form>
+                </section>
+                <section>
+                	<h1 id="contact"> Voici ci-joint, les informations de contact en cas de problèmes, de questionnements ou autres.</h1>
+                	<article>
+                		<ul>
+                			<li>Gérant Sébastien VOLLET
+                				<ul>
+                					<li>24_vollet@gmail.com</li>
+                				</ul>
+                			</li>
+                			<li>Responsable des Sports Valérie PARC
+                				<ul>
+                					<li>24_parc@gmail.com</li>
+                				</ul>
+                			</li>
+                			<li>Responsable des Activités Bryan MANS
+                				<ul>
+                					<li>24_mans@orange.fr</li>
+                				</ul>
+                			</li>
+                			<li>Responsable Communication Marie VERREAU
+                				<ul>
+                					<li>24_arena@gmail.com</li>
+                					<li>24_verreau@gmail.com</li>
+                				</ul>
+                			</li>
+                			<li>Accueil du domaine
+                				<ul>
+                					<li>01 22 33 44 55</li>
+                				</ul>
+                			</li>
+
+                		</ul>
+						<address>26 Rue Jules Guesde, 93110 Rosny-sous-Bois </address>
+                	</article>
+            	</section>
+        </main>
+        <footer>
+            <section class="section_footer">
+
+                <article class="article_gauche">
+                    <div>
+                        <p>Gabriel DELPHA</p>
+                        <p>Rayan AMARIR</p>
+                    </div>
+                    <div>
+                        <p>[1G] [S106]</p>
+                    </div>
+                </article>
+
+                <article class="article_centre">
+                    <p><a href="../rapport/rapport.docx">rapport aux formats traitement de texte </a></p>
+                    <p><a href="../rapport/rapport.pdf">rapport au format pdf </a></p>
+                </article>
+
+                <article class="article_droite">
+                <img src="../images/logo/logo_IUT.png" alt="logo_IUT">
+                </article>
+
+            </section>
+            <p class="article_centre"> &copy; 2024 24 Arena. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>

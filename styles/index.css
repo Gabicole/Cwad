@@ -1,0 +1,111 @@
+@charset "utf-8"
+* { 
+   margin : 0;
+   padding : 0; 
+}
+/*                  Css Du Header De Toutes Les Pages               */
+
+
+body {
+   background-color: #0c111a;
+   color : gray;
+   font-family:'Roboto', Helvetica, sans-serif;
+}
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+p {
+   font-size: 1.25rem;
+   line-height: 1.75rem;
+}
+a {
+}
+ header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px;
+   margin : 1rem;
+   background-color: rgba(0, 0, 0, .237);
+   border: 2px solid hsla(0, 0%, 100%, .1);
+   border-radius: .75rem;
+   box-shadow: 0px 4px 8px black;
+   margin-bottom: 8rem;
+}
+
+
+.logo {
+   display:flex;
+   align-items: center;
+}
+.logo > p {
+   font-size: 1.5rem;
+}
+.logo a img {
+   height: 65px; 
+   width: 65px;
+   margin-right: 1rem;
+   border-radius: 1rem;
+   border: 1px solid black;
+}
+
+
+header > nav {
+   flex: 1; /* Prend tout l'espace restant pour centrer les liens */
+   text-align: center; /* Centre les liens horizontalement */
+}
+
+/*               Css De la nav De Toutes Les Pages               */
+header nav a {
+   padding: 0 1rem;
+   text-align : center;
+   border-radius: 10rem;
+   font-size : 1.25rem;
+   color : white;
+   font-family: Impact, Haettenschweiler, 'Ai', sans-serif;
+}
+header nav {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+
+
+/*                       Css Du Footer De Toutes Les Pages                      */
+footer {
+   background-color: rgba(0, 0, 0, .237);
+   margin-top: 8rem;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border-radius: 1rem;
+   border: 1px solid black;
+   box-shadow: 0px 4px 8px black;
+}
+.section_footer{
+   display : grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 2rem;
+}
+.article_centre{
+   text-align: center;
+   font-size: 1.5rem;
+}
+.article_centre a {
+   color: white;
+}
+.article_gauche{
+   font-size: 1.5rem;
+   display : grid;
+   grid-template-columns: 1fr 1fr;
+}
+.article_droite img {
+   height: 10rem; 
+   margin-left: 12rem;
+   border-radius: 1rem;
+   border: 1px solid black;
+   box-shadow: 0px 4px 8px black;
+}

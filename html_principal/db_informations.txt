@@ -1,0 +1,15 @@
+Accès à SFTP :
+- FQDN : webdev.iut-orsay.fr 
+- Port : 6022 (TCP) 
+- Authentification 
+       * Identifiant : e031-gde 
+       * Mot de passe : le mot de passe de votre compte informatique. 
+Accès à PhpMyAdmin :
+- URL : https://webdev.iut-orsay.fr/phpmyadmin/ 
+- Première authentification 
+       * Identifiant : e031-gde 
+       * Mot de passe : le mot de passe de votre compte informatique. 
+- Deuxième authentifiction 
+       * Identifiant : e031-gde 
+       * Mot de passe : q^]I!~=c7:|6A}[7q8op 
+ /!\ Important : nous vous conseillons de modifier ce mot de passe via phpmyadmin 
